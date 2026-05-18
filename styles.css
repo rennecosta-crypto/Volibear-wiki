@@ -1,0 +1,61 @@
+body {
+            background: #06142b;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+        }
+        
+        .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    margin-top: 50px;
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+.fala{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.mini{
+    max-width: 600px;
+}
+
+        .skills {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .skills img {
+            width: 80px;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: 0.2s;
+        }
+
+        .skills img:hover {
+            border: 2px solid gold;
+            transform: scale(1.05);
+        }
+
+        .info {
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+
+        video {
+            width: 600px;
+            border: 2px solid gold;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
